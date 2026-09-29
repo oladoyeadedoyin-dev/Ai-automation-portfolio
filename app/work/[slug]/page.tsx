@@ -72,7 +72,7 @@ export default async function ProjectPage({
 
   return (
     <main className="min-h-screen bg-[#050505] text-white">
-      <nav className="border-b border-white/10">
+      <nav className="sticky top-0 z-50 border-b border-white/10 bg-[#050505]/95 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 md:px-10">
           <a
             href="/"

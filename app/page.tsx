@@ -126,7 +126,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#050505] text-white [font-family:var(--font-body),sans-serif]">
       <nav className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#050505]/80 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 md:px-10">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-y-3 px-6 py-4 md:flex-nowrap md:justify-between md:px-10 md:py-5">
           <a
             href="#top"
             className="text-sm font-semibold tracking-[0.2em]"
@@ -134,7 +134,7 @@ export default function Home() {
             ADEDOYIN
           </a>
 
-          <div className="hidden items-center gap-8 text-sm text-white/60 md:flex">
+          <div className="order-3 flex w-full flex-wrap items-center gap-x-5 gap-y-2 text-xs text-white/60 md:order-none md:w-auto md:gap-8 md:text-sm">
             <a href="#about" className="transition hover:text-white">
               About
             </a>
@@ -157,7 +157,7 @@ export default function Home() {
 
           <a
             href="#contact"
-            className="rounded-full border border-white/15 px-4 py-2 text-sm transition hover:border-white/40 hover:bg-white/5"
+            className="order-2 ml-auto rounded-full border border-white/15 px-4 py-2 text-sm transition hover:border-white/40 hover:bg-white/5 md:order-none md:ml-0"
           >
             Let&apos;s talk
           </a>
